@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Josefin+Sans');
+
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 6vh;
+  background-color: rgb(0, 50, 0);
+  user-select: none;
+}
+
+.nav h1 {
+  width: 90%;
+  margin: 0;
+  text-align: center;
+  line-height: 6vh;
+  font-family: 'Josefin Sans';
+  padding: 0 1em;
+  padding-top: .125em;
+  color: white;
+}
+
+.nav button {
+  width: 10%;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav button img {
+  height: 25%;
+  width: 25%;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  width: 0;
+  height: 100%;
+  background-color: rgb(0, 75, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu * {
+  font-family: 'Crete Round';
+  font-size: 3vh;
+  text-decoration: none;
+  padding: .25em 1em;
+  background: none;
+  border: none;
+  border-top: 2px solid #BFCCBF;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  text-align: center;
+}
+
+.menu button:first-child {
+  border: none;
+}
+
+.header {
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/misc/header.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header * {
+  margin: 0;
+  color: white;
+}
+
+.header h1 {
+  font-family: 'Josefin Sans';
+  font-size: 10vh;
+}
+
+.header div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.header div div {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header div div p {
+  font-family: 'Crete Round';
+  font-size: 2vh;
+}
+
+.test {
+  height: 100vh;
+}
+
+.content {
+  height: 20vw;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #d8d8d8;
+}
+
+.content:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.content div {
+  width: 80vw;
+  height: 100%;
+}
+
+.content div h3 {
+  margin: 0;
+  font-family: 'Josefin Sans';
+  font-size: 3em;
+  padding: 1em 2em;
+}
+
+.content div p {
+  margin: 0;
+  font-family: 'Crete Round';
+  font-size: 1.5em;
+  padding: 0 4em;
+}
+
+.content img {
+  height: 100%;
+  width: 20vw;
+}
