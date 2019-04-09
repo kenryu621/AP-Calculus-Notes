@@ -148,6 +148,48 @@ body {
   width: 20vw;
 }
 
+.row4content {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #d8d8d8;
+}
+
+.row4content h3 {
+  font-family: 'Josefin Sans';
+  font-size: 3em;
+}
+
+.row4content div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.row4content div div {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.row4content div div img {
+  width: 100%;
+  height: auto;
+}
+
+.row4content div div h4 {
+  font-family: 'Josefin Sans';
+  text-align: center;
+}
+
+.row4content div div p {
+  font-family: 'Crete Round';
+  margin: 0;
+}
+
 @media only screen and (max-width: 767px) {
   .nav h1 {
     font-size: 3vh;
@@ -189,5 +231,28 @@ body {
   .content img {
     height: 50vh;
     width: 100vw;
+  }
+
+  .row4content div {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .row4content div div {
+    width: 100%;
+    border-bottom: 3px solid rgb(0, 75, 0);
+  }
+
+  .row4content div div img {
+    order: 1;
+  }
+
+  .row4content div div h4 {
+    font-size: 2em;
+    margin: .5em 0;
+  }
+
+  .row4content div div p {
+    margin: .5em 2em;
   }
 }
