@@ -35,7 +35,7 @@ body {
 }
 
 .nav button img {
-  height: 25%;
+  height: auto;
   width: 25%;
 }
 
@@ -106,10 +106,6 @@ body {
 .header div div p {
   font-family: 'Crete Round';
   font-size: 2vh;
-}
-
-.test {
-  height: 100vh;
 }
 
 .content {
