@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crete+Round|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins');
 
 body {
   margin: 0;
@@ -51,7 +51,7 @@ body {
 }
 
 .menu * {
-  font-family: 'Crete Round';
+  font-family: 'Poppins';
   font-size: 3vh;
   text-decoration: none;
   padding: .25em 1em;
@@ -104,7 +104,7 @@ body {
 }
 
 .header div div p {
-  font-family: 'Crete Round';
+  font-family: 'Poppins';
   font-size: 2vh;
 }
 
@@ -134,7 +134,7 @@ body {
 
 .content div p {
   margin: 0;
-  font-family: 'Crete Round';
+  font-family: 'Poppins';
   font-size: 1.5em;
   padding: 0 4em;
 }
@@ -182,7 +182,7 @@ body {
 }
 
 .row4content div div p {
-  font-family: 'Crete Round';
+  font-family: 'Poppins';
   margin: 0;
 }
 
